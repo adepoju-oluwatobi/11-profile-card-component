@@ -7,10 +7,8 @@ import ProfilePics from '../assets/image-victor.jpg'
 function ProfileCard() {
   return (
     <div>
-           <img className='absolute top-[-10%] left-[-50%] rotate-6' src={TopBg} alt="" />
-
-
-        <div className='w-[300px] h-[380px] bg-white rounded-2xl relative z-[999]'>
+          <img className='absolute top-[-10%] md:top-[-500px] left-[-50%] rotate-6' src={TopBg} alt="" />
+        <div className='w-[300px] md:w-[380px] h-[380px] bg-white rounded-2xl relative z-[999] shadow-lg'>
             <img className='rounded-t-2xl h-[160px]' src={CardBg} alt="card background" />
             <img className='rounded-full m-auto mt-[-50px]' src={ProfilePics} alt="profile picture" />
             <p className='font-bold text-lg text-center pt-6'>Victor Crest <span className='font-thin opacity-50'>26</span></p>
